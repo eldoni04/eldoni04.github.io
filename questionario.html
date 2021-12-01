@@ -1,0 +1,173 @@
+<html>
+<head>
+	<title>QUIZ</title>
+	<link rel="stylesheet" href="questionario.css" type="text/css">
+	<script>
+	function invia(){
+	america=document.modulo.america.value;
+	harry=document.modulo.harry.value;
+	rupert=document.modulo.rupert.checked;
+	emma=document.modulo.emma.checked;
+	daniel=document.modulo.daniel.checked;
+	rayzen=document.modulo.test1.value;
+	cooler=document.modulo.test2.value;
+	scheda=document.modulo.test3.value;
+	armor=document.modulo.test4.value;
+	monitors=document.modulo.test5.value;
+	ssd=document.modulo.test6.value;
+	monitorc=document.modulo.test7.value;
+	ram=document.modulo.test8.value;
+	intel=document.modulo.test9.value;
+	bella=document.modulo.cerreto.value;
+	brutta=document.modulo.mat.value;
+	buonsenso=document.modulo.buonsenso.checked;
+	coerenza=document.modulo.coerenza.checked;
+	affetto=document.modulo.affetto.checked;
+	cavallo=document.modulo.bianco.value;
+	uguale=document.modulo.uguale.value;
+	crispy=document.modulo.bacon.checked;
+	fragole=document.modulo.fragole.checked;
+	carbonara=document.modulo.carbo.checked;
+	punti=0;
+	if(america=="1492"){punti++};
+	if(harry.toLowerCase()=="megasuperiperassuerdo"){punti++};
+	if(rupert){punti++};
+	if(emma){punti++};
+	if(daniel){punti++};
+	if(rayzen=="vero1"){punti++};
+	if(cooler=="falso2"){punti++};
+	if(scheda=="falso3"){punti++};
+	if(armor=="vero4"){punti++};
+	if(monitors=="falso5"){punti++};
+	if(ssd=="vero6"){punti++};
+	if(monitorc=="vero7"){punti++};
+	if(ram=="vero8"){punti++};
+	if(intel=="falso9"){punti++};
+	if(bella=="c5"){punti++};
+	if(brutta=="c3"){punti++};
+	if(buonsenso){punti++};
+	if(coerenza){punti++};
+	if(affetto){punti++};
+	if(cavallo.toLowerCase()=="bianco"){punti++};
+	if(uguale.toLowerCase()=="uguale"){punti++};
+	if(crispy){punti++};
+	if(fragole){punti++};
+	if(carbonara){punti++};
+	document.getElementById("sotto").innerHTML="Hai fatto "+punti+"/27";
+
+	
+	
+	
+	
+	
+}
+	</script>
+</head>
+<body>
+	<a href="start"></a>
+	<div id="titolo">
+			<h1>Questionario</h1>
+			<h5>Idonietà per essere la mia ragazza</h5>
+			<h6>NON SBAGLIARE LA PRIMA</h6>
+	</div>
+	<div id="mezzo">
+		<form name="modulo">
+	<br>
+	<fieldset>
+		<legend>/1/In che anno è stata scoperta l'America?</legend>
+		<br>1257<input type="radio" name="america" value="1257">
+		<br>1752<input type="radio" name="america" value="1752">
+		<br>1914<input type="radio" name="america" value="1914">
+		<br>1492<input type="radio" name="america" value="1492">		
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend>/2/harry potter è bello/strabiliante/megasuperiperassuerdo ?</legend>
+		<br>Risposta:<input type="text" name="harry">
+			
+	</fieldset>
+	<fieldset>
+		<legend>/3/Quali sono attori di harry potter?</legend>
+		<br>Rupert Grint<input type="checkbox" name="rupert" value="rupert">
+		<br>Leonardo Di Caprio<input type="checkbox" name="caprio" value="caprio">
+		<br>Emma Watson<input type="checkbox" name="emma" value="emma">
+		<br>Silvester Stallone<input type="checkbox" name="stallone" value="stallone">
+		<br>Robert Downley Junior<input type="checkbox" name="robert" value="robert">
+		<br>Daniel Radcliffe<input type="checkbox" name="daniel" value="daniel">
+				
+	</fieldset>
+	<fieldset>
+		<legend>/4/Componenti PC di Eldoni</legend>
+		<br><a>Ryzen 7:<a>&nbsp;&nbsp;&nbsp;&nbsp; V <input type="radio" name="test1" value="vero1"> F<input type="radio" name="test1" value="falso1">
+		<br><a>Case CoolerMaster:<a>&nbsp;&nbsp;&nbsp;&nbsp; V <input type="radio" name="test2" value="vero2"> F<input type="radio" name="test2" value="falso2">
+		<br><a>3070 ti:<a>&nbsp;&nbsp;&nbsp;&nbsp; V <input type="radio" name="test3" value="vero3"> F<input type="radio" name="test3" value="falso3">
+		<br><a>1080 oc armor:<a>&nbsp;&nbsp;&nbsp;&nbsp; V <input type="radio" name="test4" value="vero4"> F<input type="radio" name="test4" value="falso4">
+		<br><a>360hz:<a>&nbsp;&nbsp;&nbsp;&nbsp; V <input type="radio" name="test5" value="vero5"> F<input type="radio" name="test5" value="falso5">
+		<br><a>SSD 520 Ultra Speed:<a>&nbsp;&nbsp;&nbsp;&nbsp; V <input type="radio" name="test6" value="vero6"> F<input type="radio" name="test6" value="falso6">
+		<br><a>144hz:<a>&nbsp;&nbsp;&nbsp;&nbsp; V <input type="radio" name="test7" value="vero7"> F<input type="radio" name="test7" value="falso7">
+		<br><a>16 gb Ram 3200mghz:<a>&nbsp;&nbsp;&nbsp;&nbsp; V <input type="radio" name="test8" value="vero8"> F<input type="radio" name="test8" value="falso8">
+		<br><a>Scheda madre intel:<a>&nbsp;&nbsp;&nbsp;&nbsp; V <input type="radio" name="test9" value="vero9"> F<input type="radio" name="test9" value="falso9">
+		
+	</fieldset>
+
+	<fieldset>
+		<legend>/5/Qual'è la città più bella del mondo</legend>
+		<br>New York<input type="radio" name="cerreto" value="c1">
+		<br>Roma<input type="radio" name="cerreto" value="c2">
+		<br>Parigi<input type="radio" name="cerreto" value="c3">
+		<br>Tokyo<input type="radio" name="cerreto" value="c4">
+		<br>Cerreto<input type="radio" name="cerreto" value="c5">
+			
+	</fieldset>
+	<fieldset>
+		<legend>/6/Qual'è la città più brutta del mondo</legend>
+		<br>Napoli<input type="radio" name="mat" value="c1">
+		<br>Palermo<input type="radio" name="mat" value="c2">
+		<br>Matelica<input type="radio" name="mat" value="c3">
+		<br>Mosca<input type="radio" name="mat" value="c4">
+		<br>Civitanova<input type="radio" name="mat" value="c5">
+			
+	</fieldset>
+	<fieldset>
+		<legend>/7/Cosa è più importante per Eldoni/3risp/</legend>
+		<br>Buonsenso<input type="checkbox" name="buonsenso" value="rupert1">
+		<br>Soldi<input type="checkbox" name="soldi" value="caprio2">
+		<br>Coerenza<input type="checkbox" name="coerenza" value="emma3">
+		<br>Affetto<input type="checkbox" name="affetto" value="stallone4">
+		<br>Solitudine<input type="checkbox" name="solitudine" value="robert5">
+		<br>verità<input type="checkbox" name="verità" value="daniel6">
+				
+	</fieldset>
+	<fieldset>
+		<legend>/8/Che colore è il cavallo bianco di Napoleone?</legend>
+		<br>Risposta:<input type="text" name="bianco">
+			
+	</fieldset>
+	<fieldset>
+		<legend>/9/Pesa più un kg di ferro o un kg di piume?</legend>
+		<br>Risposta:<input type="text" name="uguale">
+			
+	</fieldset>
+	<fieldset>
+		<legend>/10/Indica i 3 alimenti che eldoni preferisce:</legend>
+		<br>Crispy McBacon<input type="checkbox" name="bacon" value="cibo1">
+		<br>Tiramisù<input type="checkbox" name="tirami" value="cibo2">
+		<br>Spinaci<input type="checkbox" name="spinaci" value="cibo3">
+		<br>Fragole<input type="checkbox" name="fragole" value="cibo4">
+		<br>Lasagna<input type="checkbox" name="lasagne" value="cibo5">
+		<br>Carbonara<input type="checkbox" name="carbo" value="cibo6">
+				
+	</fieldset>
+	
+	
+	
+	</div>
+	<div id="sotto">
+		<a href="#start">
+		<input type="button" value="INVIA" onclick="invia()">
+		</a>
+	</div>
+
+
+</body>
+</html>

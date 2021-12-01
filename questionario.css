@@ -1,0 +1,39 @@
+#titolo{
+	color:#88B04B;
+	background-color:black;
+	font-size:200%;
+	font-weight:bold;
+	font-family: comic sans ms, arial, calibri;
+	height:350px;
+	text-align:center;
+	width:100%;
+	box-sizing: border-box;
+}
+#mezzo{
+	color:black;
+	background-color:silver;
+	font-size:100%;
+	font-family: comic sans ms, arial, calibri;
+	height:1750px;
+	width:100%;
+	box-sizing: border-box;
+	
+}
+#sotto{
+	color:black;
+	background-color:silver;
+	font-size:100%;
+	font-family: comic sans ms, arial, calibri;
+	height:200px;
+	width:100%;
+	box-sizing: border-box;
+	text-align:left
+	
+	
+}
+input[type=button]{
+	color:black;
+	width:20%;
+	height:70px;
+	background-color:white;
+}
